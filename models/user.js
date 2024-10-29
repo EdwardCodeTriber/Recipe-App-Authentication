@@ -19,8 +19,9 @@ const userSchema = new mongoose.Schema({
         );
       },
     },
+    massage: "Password must contain atleast one lowercase, one uppercase, a number and one special charactor",
   },
-  massage: "Password must contain atleast one lowercase, one uppercase, a number and one special charactor";
+  
 
 });
 
