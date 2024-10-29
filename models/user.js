@@ -19,13 +19,13 @@ const userSchema = new mongoose.Schema({
         );
       },
     },
-    massage: "Password must contain atleast one lowercase, one uppercase, a number and one special charactor",
+    massage:
+    "Password must conatain atleast one lowercase letter, uppercase letter, a number and special charactor",
   },
-  
-
+ 
 });
 
-userSchema.methods.matchpasswords = async function (enterPassword) {
+userSchema.methods.matchPasswords = async function (enterPassword) {
     return await bcrypt.compare(enterPassword, this.password)
 }
 

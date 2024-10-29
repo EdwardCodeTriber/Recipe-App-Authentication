@@ -21,7 +21,7 @@ const registerUser = async (req, res) => {
 
         res.status(201).json({
             _id: user._id,
-            email: user.email
+            email: user.email,
         });
 
     } catch (error) {
