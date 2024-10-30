@@ -15,7 +15,7 @@ This is a RESTful API for managing recipes built using Node.js, Express, and Mon
 - MongoDB
 
 ## Installation
-- npm install express dotenv mongoose nodemon bcrypt validator
+- npm install express dotenv mongoose nodemon bcrypt validator body-parser
 
 1. Clone the repository:
 
