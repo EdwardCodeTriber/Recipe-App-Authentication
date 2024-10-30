@@ -42,6 +42,8 @@ This is a RESTful API for managing recipes built using Node.js, Express, and Mon
 # Login:
 
 - Login to receive a JWT or Session ID.
+- Copy the token, under Authorization type select the bearer token type
+- paste the token generated for the logged in user in order to use it to perform actions. eg. edit, post and edit.
 # Access Control:
 
 - Based on the assigned role, access to different functionalities (like creating or editing recipes) will be managed automatically.
