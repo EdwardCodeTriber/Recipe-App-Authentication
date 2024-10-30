@@ -45,7 +45,7 @@ This is a RESTful API for managing recipes built using Node.js, Express, and Mon
 # Access Control:
 
 - Based on the assigned role, access to different functionalities (like creating or editing recipes) will be managed automatically.
-- Logout:
+# Logout:
 
 - End the session or invalidate the JWT as required to log out securely.
 ## Example API Endpoints
