@@ -38,6 +38,12 @@ This is a RESTful API for managing recipes built using Node.js, Express, and Mon
 - Role-Based Access Checks
 - On each request, the app checks the user’s role and permissions before allowing specific actions. Permissions are enforced at the endpoint level to ensure only users with sufficient privileges can perform certain operations.
 
+## Register cred
+ - {
+    "email" : "edward@gmail.com",
+    "password" : "@Edward66"
+   }
+
 ## Usage
 # Login:
 
